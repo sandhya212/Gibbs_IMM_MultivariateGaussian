@@ -25,15 +25,17 @@ Until here, this is a one-time activity.
 
 2. At the R prompt: issue command
 >rm(list=ls())
+
 >graphics.off()
 
 3. Issue setwd() to point to the path where the code repository resides. 
-eg. if the code is downloaded at “/User/Downloads/IMM_Code/“, then type
->working_path <- "/Users/Downloads/IMM_Code/“; 
+eg. if the code is downloaded at "/User/Downloads/IMM_Code/", then type
+>working_path <- "/Users/Downloads/IMM_Code/"
+
 >setwd(working_path);
 
 4. At the R prompt: Issue command
-> source(start_file.R)
+> source("start_file.R")
 
 **Output**
 ______
@@ -41,6 +43,6 @@ ______
 1. ~/output/plots/ folder gives the various plots
 3. In the R terminal, the latent variables of interest can be obtained by issuing:
 
->- Class               ##  *(class assignment of the cells)*
->- mu                         ##  *(inferred means. dim(mu_final) <- numgenes x K)*
+>- Class               ##  *(class assignment of the observations)*
+>- mu                         ##  *(inferred means)*
 >- Sigma                    ##  *(inferred covariances)*
