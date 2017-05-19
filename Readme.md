@@ -42,5 +42,5 @@ ______
 3. In the R terminal, the latent variables of interest can be obtained by issuing:
 
 >- Class               ##  *(class assignment of the cells)*
->- mu                         ##  *(inferred mus. dim(mu_final) <- numgenes x K)*
->- Sigma                    ##  *(inferred Sigmas)*
+>- mu                         ##  *(inferred means. dim(mu_final) <- numgenes x K)*
+>- Sigma                    ##  *(inferred covariances)*
