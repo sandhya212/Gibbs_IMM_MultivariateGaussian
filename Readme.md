@@ -25,12 +25,12 @@ Until here, this is a one-time activity.
 
 2. At the R prompt: issue command
 >rm(list=ls())
-graphics.off()
+>graphics.off()
 
 3. Issue setwd() to point to the path where the code repository resides. 
 eg. if the code is downloaded at “/User/Downloads/IMM_Code/“, then type
 >working_path <- "/Users/Downloads/IMM_Code/“; 
-setwd(working_path);
+>setwd(working_path);
 
 4. At the R prompt: Issue command
 > source(start_file.R)
