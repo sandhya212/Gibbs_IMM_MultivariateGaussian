@@ -35,7 +35,7 @@ eg. if the code is downloaded at "/User/Downloads/IMM_Code/", then type
 >setwd(working_path);
 
 4. At the R prompt: Issue command
-> source("start_file.R")
+> source("Gibbs_InfiniteMixtureModel_MultiVariate_Gaussian.R")
 
 **Output**
 ______
